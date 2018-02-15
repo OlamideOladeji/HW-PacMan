@@ -72,7 +72,7 @@ exercise.chooseImage = function() {
 exercise.checkWallCollision = function() {
     // reset the direction of motion if wall is hit
     // you need to take into account image width
-    exercise.wall = window.outerWidth
+    exercise.wall = 800 //window.outerWidth
     console.log(exercise.wall)
    //console.log(exercise.img1.style.right)
     //console.log(exercise.wall)
